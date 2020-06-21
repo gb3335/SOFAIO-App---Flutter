@@ -402,8 +402,8 @@ class _LoginSignUpPageState extends State<LoginSignUpPage> {
   }
 
   Future<Null> onLoginWithFacebook() async {
-    String facebookAppId = "1716990488555418";
-    String facebookAppSecret = "c4750ba1e5e434af141322ab394b348d";
+    String facebookAppId = "your-id";
+    String facebookAppSecret = "secret-id";
 
     fb.Token token;
     fb.FacebookGraph graph;
